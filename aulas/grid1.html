@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS GRID</title>
+
+    <style>
+        body {
+            padding: 0;
+            margin: 0%;
+        }
+
+        #container {
+            height: 100vh;
+            width: 100vw;
+            display: grid;
+            background-color: red;
+            grid-template-columns: 100px 1fr;
+            grid-template-rows: 100px 1fr 70px;
+            /* gap: 10px 30px; */
+
+            grid-template-areas: 
+                "i1 i1"
+                "i2 i3"
+                "i4 i4"
+            ;
+        }
+
+
+
+        .item1 {
+            grid-area: i1;
+            background-color: aquamarine;
+        }
+        .item2 {
+            grid-area: i2;
+            background-color: skyblue;
+        }
+        .item3 {
+            grid-area: i3;
+            background-color: beige;
+        }
+        .item4 {
+            background-color: aqua;
+            grid-area: i4;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="item1">Header</div>
+        <div class="item2">Side Menu</div>
+        <div class="item3">Main</div>
+        <div class="item4">Footer</div>
+    </div>
+
+    <p title="nhe bataa">Nhe</p>
+</body>
+</html>
