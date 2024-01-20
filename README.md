@@ -3,9 +3,9 @@
 ## Projetos
 Todos **Responsivos**
 
-[Starbucks](https://victor-spichenkoff.github.io/b7web-html-css/starbucks/)
-
-
 [VSS Burger](https://victor-spichenkoff.github.io/b7web-html-css/burgers/)
+
+
+[Starbucks](https://victor-spichenkoff.github.io/b7web-html-css/starbucks/)
 
 Há também alguns arquivos de aulas
